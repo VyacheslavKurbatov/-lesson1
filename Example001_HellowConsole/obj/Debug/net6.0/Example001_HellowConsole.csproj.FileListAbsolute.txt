@@ -1,0 +1,15 @@
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\bin\Debug\net6.0\Example001_HellowConsole.exe
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\bin\Debug\net6.0\Example001_HellowConsole.deps.json
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\bin\Debug\net6.0\Example001_HellowConsole.runtimeconfig.json
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\bin\Debug\net6.0\Example001_HellowConsole.dll
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\bin\Debug\net6.0\Example001_HellowConsole.pdb
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.csproj.AssemblyReference.cache
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.AssemblyInfoInputs.cache
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.AssemblyInfo.cs
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.csproj.CoreCompileInputs.cache
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.dll
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\refint\Example001_HellowConsole.dll
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.pdb
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\Example001_HellowConsole.genruntimeconfig.cache
+C:\Users\Kurba\Desktop\Учеба GB\C#\Лекции\Лекция 1\Examples\Example001_HellowConsole\obj\Debug\net6.0\ref\Example001_HellowConsole.dll
