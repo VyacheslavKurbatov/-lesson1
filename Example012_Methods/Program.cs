@@ -1,41 +1,41 @@
 ﻿// Вид 1
-void Method1()
-{
-    Console.WriteLine("Автор..");
-}
+// void Method1()
+// {
+//     Console.WriteLine("Автор..");
+// }
 
 // Method1(); // Так вызывается этот метод
 
 // Вид 2
 
-void Method2(string msg)
-{
-    Console.WriteLine(msg);
-}
+// void Method2(string msg)
+// {
+//     Console.WriteLine(msg);
+// }
 
-// Method2(msg: "Текст сообщения"); // msg: - для того чтобы определить к какому аргументу метода присвоить данный входящий аргумент
+// // Method2(msg: "Текст сообщения"); // msg: - для того чтобы определить к какому аргументу метода присвоить данный входящий аргумент
 
-void Method21(string msg, int count)
-{
-    int i = 0;
-    while (i < count)
-    {
-        Console.WriteLine(msg);
-        i++;
-    }
-}
+// void Method21(string msg, int count)
+// {
+//     int i = 0;
+//     while (i < count)
+//     {
+//         Console.WriteLine(msg);
+//         i++;
+//     }
+// }
 // Method21(msg: "Текст", count: 4);
 // Method21(count: 4, msg: "Новый текст");
 
 
 // Вид 3
 
-int Method3()
-{
-    return DateTime.Now.Year;
-}
+// int Method3()
+// {
+//     return DateTime.Now.Year;
+// }
 
-int year = Method3();
+// int year = Method3();
 // Console.WriteLine(year);
 
 
@@ -59,18 +59,18 @@ int year = Method3();
 // string res = Method4(10, " asdf ");
 // Console.WriteLine(res);
 
-string Method4(int count, string text) // char тип данных, предназначенный для хранения одного символа
-{
-    string result = String.Empty; // переменная изначально будет пустой строкой
+// string Method4(int count, string text) // char тип данных, предназначенный для хранения одного символа
+// {
+//     string result = String.Empty; // переменная изначально будет пустой строкой
 
-    for (int i = 0; i < count; i++)
-    {
-        result = result + text;
-    }
-    return result;
-}
+//     for (int i = 0; i < count; i++)
+//     {
+//         result = result + text;
+//     }
+//     return result;
+// }
 
-string res = Method4(10, " asdf ");
+// string res = Method4(10, " asdf ");
 // Console.WriteLine(res); 
 
 
@@ -98,49 +98,79 @@ string res = Method4(10, " asdf ");
 // Ясна ли задача?
 
 
-string text = "— Я думаю, — сказал князь, улыбаясь, — что, "
-            + "ежели бы вас послали вместо нашего милого Винценгероде,"
-            + "вы бы взяли приступом согласие прусского короля. "
-            + "Вы так красноречивы. Вы дадите мне чаю?";
+// string text = "— Я думаю, — сказал князь, улыбаясь, — что, "
+//             + "ежели бы вас послали вместо нашего милого Винценгероде,"
+//             + "вы бы взяли приступом согласие прусского короля. "
+//             + "Вы так красноречивы. Вы дадите мне чаю?";
 
 // string s = "qwert"
 //             0123
 // s[3] // r
 
-string Replace(string text, char oldValue, char newValue)
+// string Replace(string text, char oldValue, char newValue)
+// {
+//     string result = String.Empty;
+
+//     int length = text.Length;
+//     for (int i = 0; i < length; i++)
+//     {
+//         if(text[i] == oldValue) result = result + $"{newValue}"; // если текущий символ (text[i]) совпал с тем символом который мы хотим заменить (oldValue) то в результат (result) мы должны будем положить новое значение строки (newValue)
+//         else result = result + $"{text[i]}"; // иначе (если не совпал) то положить текущий символ (тот что и был)
+//     }
+
+//     return result;
+// }
+
+// string newText = Replace(text, ' ', '|');
+// Console.WriteLine(newText);
+
+// Console.WriteLine();
+
+// newText = Replace(newText, 'к', 'К');
+// Console.WriteLine(newText);
+
+// Console.WriteLine();
+
+// newText = Replace(newText, 'С', 'с');
+// Console.WriteLine(newText);
+
+
+
+
+int[] arr = { 1, 5, 4, 3, 2, 6, 7, 1, 1 };
+
+void PrintArray(int[] array)
 {
-    string result = String.Empty;
-
-    int length = text.Length;
-    for (int i = 0; i < length; i++)
+    int count = array.Length;
+    
+    for (int i = 0; i < count; i++)
     {
-        if(text[i] == oldValue) result = result + $"{newValue}"; // если текущий символ (text[i]) совпал с тем символом который мы хотим заменить (oldValue) то в результат (result) мы должны будем положить новое значение строки (newValue)
-        else result = result + $"{text[i]}"; // иначе (если не совпал) то положить текущий символ (тот что и был)
+        Console.Write($"{array[i]} ");
     }
-
-    return result;
+    Console.WriteLine();
 }
 
-string newText = Replace(text, ' ', '|');
-Console.WriteLine(newText);
+void SelectionSort(int[] array)
+{
 
-Console.WriteLine();
+    for (int i = 0; i < array.Length - 1; i++)
+    {
+        int minPosition = i;
 
-newText = Replace(newText, 'к', 'К');
-Console.WriteLine(newText);
+        for (int j = i + 1; j < array.Length; j++)        
+        {
+            if(array[j] < array[minPosition]) minPosition = j;
+        }
 
-Console.WriteLine();
+        int temporary = array[i];
+        array[i] = array[minPosition];
+        array[minPosition] = temporary;
+    }
+}
 
-newText = Replace(newText, 'С', 'с');
-Console.WriteLine(newText);
+PrintArray(arr);
+SelectionSort(arr);
+PrintArray(arr);
 
-
-
-
-
-
-
-
-
-
+// Упорядочить в обратном порядке
 
